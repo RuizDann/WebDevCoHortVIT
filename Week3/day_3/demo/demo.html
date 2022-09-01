@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3D3 Demo</title>
+    <link rel="stylesheet" href="demo.css" />
+    <script src="demo.js" defer></script>
+  </head>
+  <body>
+    <h1>Week 3 Day 3 Demo</h1>
+    <div class="hr"></div>
+
+    <h2>Easy</h2>
+
+    <div class="demoBox">
+      <h3>Hello <span id="username">User</span>!</h3>
+
+      <label for="username">Enter Name: </label>
+
+      <input type="text" name="username" id="usernameInput" />
+
+      <button onclick="changeName()">Update Name</button>
+    </div>
+    <div class="hr"></div>
+    <h2>Medium</h2>
+    <div class="demoBox">
+      <h3>Tax Calculation</h3>
+      <label for="subtotal">Enter Bill SubTotal: </label>
+      <input type="text" name="subtotal" id="subtotal" />
+      <button onclick="calculateTax()">Calculate 18% Tax</button>
+
+      <h3>Tax Amount: <span id="taxAmount"></span></h3>
+    </div>
+  </body>
+</html>

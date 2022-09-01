@@ -1,0 +1,7 @@
+div {
+  width: 250px;
+  height: 250px;
+  display: block;
+  border: solid 1px black;
+  margin: 5px;
+}

@@ -1,0 +1,19 @@
+#carouselWindow {
+  width: 400px;
+  height: 400px;
+  border: solid 1px black;
+  /* add the additional required properties */
+  overflow: hidden;
+}
+
+#imgSlider {
+  border: solid 1px red;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  /* update to fit a single image in the window */
+  width: 400px;
+  height: 400px;
+}

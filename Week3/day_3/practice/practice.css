@@ -1,0 +1,38 @@
+/* since i'm manually overriding all margin and padding for every element, I will need to manually set it */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* minimum height so if the content is smaller, it will take this space, if it is bigger, it will ignore this.*/
+}
+
+#main {
+  flex-grow: 5; /* want my main to be bigger than the header and footer */
+  display: flex;
+  justify-content: center;
+}
+
+#tipCalculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.calculatorSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* applying the same css declaration to multiple selectors */
+#header,
+#footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

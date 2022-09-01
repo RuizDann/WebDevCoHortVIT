@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main {
+  flex-grow: 5; /* want my main to be bigger than the header and footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header,
+#footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#liftLogs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.newList {
+  color: purple;
+}
+
+.crazyDates {
+  font-family: fantasy;
+  text-decoration: wavy;
+  color: chartreuse;
+}

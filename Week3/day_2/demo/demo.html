@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3D2 Demo</title>
+    <link rel="stylesheet" href="demo.css" />
+    <script src="demo.js" defer></script>
+  </head>
+  <body>
+    <h1>Carousel</h1>
+    <div id="carousel">
+      <button onclick="scrollup()">UP</button>
+      <div id="window">
+        <div id="slider">
+          <img
+            src="https://imgs.search.brave.com/w_kiwNySC4RdoFoVirlWbHxyGtwZUEBIQerTU1GWMAw/rs:fit:1200:1000:1/g:ce/aHR0cHM6Ly9pbWcu/cmVkYnVsbC5jb20v/aW1hZ2VzL2NfY3Jv/cCx4XzAseV8wLGhf/MTA4MCx3XzE2MjAv/Y19maWxsLHdfMTUw/MCxoXzEwMDAvcV9h/dXRvLGZfYXV0by9y/ZWRidWxsY29tLzIw/MTcvMDgvMjkvMDM4/MjA4NDUtYjA5MC00/NDRmLTg2ZDEtZTUy/NTlkMTE0ODJmL21v/c3QtaGVyb2ljLXBv/a2Vtb24uanBnLmpw/Zw"
+            alt="dragonair"
+          />
+          <img
+            src="https://imgs.search.brave.com/NPqrx7Eh9kQj2zkYGVu701qe6jkBVQtKrtI5xfUneqY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9taXIt/czMtY2RuLWNmLmJl/aGFuY2UubmV0L3By/b2plY3RfbW9kdWxl/cy8xNDAwL2U5MGQw/NzcwNDc2NzM1LjVi/YTVjOGY4MDVlOTUu/anBlZw"
+            alt="eevee"
+          />
+          <img
+            src="https://imgs.search.brave.com/-Kq1mMa1hpDtfveWaN0bk4Zy7iuYMlruV1JPR2aEVPs/rs:fit:1200:952:1/g:ce/aHR0cHM6Ly9waWNv/bi5uZ2ZpbGVzLmNv/bS82NzEwMDAvZmxh/c2hfNjcxNDQ3X2xh/cmdlc3RfY3JvcC5q/cGc_ZjE0NTcxMTA5/Mjc"
+            alt="cubone"
+          />
+        </div>
+      </div>
+      <button onclick="scrolldown()">DOWN</button>
+    </div>
+    <hr />
+    <h1>CSS demo: transform</h1>
+    <h2>transform: rotate(deg)</h2>
+    <div class="container">
+      <div class="demoBox"></div>
+      <div class="demoBox" style="transform: rotate(45deg)"></div>
+    </div>
+
+    <hr />
+    <h2>transform: scale(2)</h2>
+    <div class="container">
+      <div class="demoBox"></div>
+      <div class="demoBox" style="transform: scale(2)"></div>
+    </div>
+
+    <hr />
+    <h2>transform: translate(120px)</h2>
+    <div class="container">
+      <div class="demoBox"></div>
+      <div class="demoBox" style="transform: translate(150px)"></div>
+    </div>
+
+    <hr />
+  </body>
+</html>

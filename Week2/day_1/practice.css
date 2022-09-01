@@ -1,0 +1,19 @@
+/*
+in the css file, create declarations with the following properties for: 
+- `headline` class :
+    - font style underline
+    - color grey
+- `bulletPoints` class:
+    - list style square
+    - color red
+*/
+
+.headline {
+    color: grey;
+    text-decoration: underline;
+}
+
+.bulletPoints {
+    color: red;
+    list-style: square;
+}

@@ -1,0 +1,13 @@
+.sampleBox {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  margin: 30px;
+}
+
+.eventEffects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

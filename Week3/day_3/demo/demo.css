@@ -1,0 +1,19 @@
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  width: 100%;
+  border-bottom: solid 2px black;
+  margin-top: 50px;
+}
+
+.demoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

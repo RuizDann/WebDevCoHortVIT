@@ -1,0 +1,23 @@
+/*
+- style the p to be as close as possible to the h1
+- set a height and width to the image so it is a 200px by 200px square
+*/
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}

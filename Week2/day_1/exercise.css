@@ -1,0 +1,29 @@
+.column {
+  display: inline-block;
+  width: 33%;
+}
+
+.ferret {
+  display: block;
+  width: 50%;
+  background-color: black;
+  color: black;
+}
+
+#giraffe {
+  list-style: block;
+}
+
+.skunk {
+  border: solid 5px dotted;
+}
+
+#headerColor {
+  color: rebeccapurple;
+}
+
+.divColors {
+  background-color: black;
+  color: yellow;
+  font-family: sans-serif;
+}

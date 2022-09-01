@@ -1,0 +1,36 @@
+.demoBox {
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+hr {
+  margin: 70px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+#carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#window {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3D4 Demo</title>
+    <link rel="stylesheet" href="demo.css" />
+    <script src="demo.js"></script>
+  </head>
+  <body>
+    <div id="header"><h1>Gym Log</h1></div>
+    <div id="main">
+      <div>
+        <label for="displayName">Enter Name: </label>
+        <input type="text" name="displayName" id="displayName" />
+        <label for="benchPress">Enter Bench Press: </label>
+        <input type="text" name="benchPress" id="benchPress" />
+        <label for="squat">Enter Squat: </label>
+        <input type="text" name="squat" id="squat" />
+        <label for="deadlift">Enter Deadlift: </label>
+        <input type="text" name="deadlift" id="deadlift" />
+        <button onclick="advanceAddLifts()">Add Date</button>
+      </div>
+      <br />
+      <div id="liftLogs">
+        <div class="liftColumn">
+          <h3>Date</h3>
+          <ul id="dateCol">
+            <li class="crazyDates">Hello!</li>
+          </ul>
+        </div>
+        <div class="liftColumn">
+          <h3>Name</h3>
+          <ul id="nameCol"></ul>
+        </div>
+        <div class="liftColumn">
+          <h3>Bench Press</h3>
+          <ul id="benchCol"></ul>
+        </div>
+        <div class="liftColumn">
+          <h3>Squat</h3>
+          <ul id="squatCol"></ul>
+        </div>
+        <div class="liftColumn">
+          <h3>Deadlift</h3>
+          <ul id="deadliftCol"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer"><h4>VetInTech Week 3 Day 4</h4></div>
+  </body>
+</html>

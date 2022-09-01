@@ -1,0 +1,116 @@
+body {
+    background-color: #102E24;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0%;
+}
+
+h1, h2, h4, li {
+    color: #F2E0D9;
+}
+
+label {
+    color: #F2E0D9;
+}
+
+#header {
+    border: 3px dashed #D95D31;
+    background-color: #4F8272;
+    min-width: 100vw;
+}
+
+#footer {
+    border: 3px dashed #D95D31;
+    background-color: #4F8272;
+    min-width: 100vw;
+    justify-content: space-around;
+}
+
+#carouselWindow {
+  border: solid 3px #D95D31;
+  min-width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#imgSlider {
+    border: solid 1px red;
+}
+
+#buttons {
+    border: solid 3px #D95D31;
+    min-width: 100vw;
+}
+
+#mainDiv1 {
+    border: 3px solid #D95D31;
+    background-color: #2D9F7B;
+    min-width: 100vw;
+    height: 400px;
+}
+
+#mainDiv2 {
+    border: 3px solid #D95D31;
+    background-color: #2D9F7B;
+    min-width: 100vw;
+    height: 500px;
+}
+
+.containerBox {
+    margin: 50px;
+}
+
+#box1 {
+    border: dashed 3px red;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#box3 {
+    border: dotted 5px brown;
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+
+.flexBoxColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBoxRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.divRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.divColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.divBackground {
+    border: 3px solid #D95D31;
+    background-color: #2D9F7B;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.addPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

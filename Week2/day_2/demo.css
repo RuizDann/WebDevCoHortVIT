@@ -1,0 +1,16 @@
+.childDiv {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+}
+
+#defaultFlex {
+  display: flex;
+  border: solid 1px red;
+}
+
+#columnFlex {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px red;
+}

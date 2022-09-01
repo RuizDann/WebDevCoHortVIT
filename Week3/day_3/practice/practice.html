@@ -1,0 +1,54 @@
+<!--
+EASY
+1. Take the value of the inputted subtotal and tip percentage to display the tip amount.
+2. Uncomment the sections that are currently commented out in the HTML file.
+3. Update calculate function to accommodate the new fields.
+
+MEDIUM
+1. Add the necessary elements to the HTML files to calculate total with state tax at a fixed 6.0%
+
+HARD
+1. Change the fixed state tax to allow user to input a custom amount.
+
+NIGHTMARE
+1. Add necessary elements to split the bill amount between a certain number of people and alert the output.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3D3 Practice</title>
+    <link rel="stylesheet" href="practice.css" />
+    <script src="practice.js" defer></script>
+  </head>
+  <body>
+    <div id="header"><h1>Tip Calculator</h1></div>
+    <div id="main">
+      <div id="tipCalculator">
+        <div class="calculatorSection">
+          <label for="subtotal">Enter Subtotal: </label>
+          <input type="text" name="subtotal" id="subtotal" value="0"/>
+        </div>
+        <div class="calculatorSection">
+          <label for="taxPercentage">Enter Tax Percentage: </label>
+          <input type="text" name="taxPercentage" id="taxPercentage" value="0"/>
+        </div>
+        <div class="calculatorSection">
+          <label for="tipPercentage">Enter Tip Percentage: </label>
+          <input type="text" name="tipPercentage" id="tipPercentage" value="0"/>
+        </div>
+        <div class="calculatorSection">
+          <label for="split">Enter party size: </label>
+          <input type="text" name="split" id="split" value="1"/>
+        </div>
+        <button onclick="calculate()">Calculate</button>
+        <h2>Tip Amount: <span id="calculatedTipAmount"></span></h2>
+        <h2>Total Amount: <span id="totalAmount"></span></h2>
+      </div>
+    </div>
+    <div id="footer"><h4>Thank you for using our services!</h4></div>
+  </body>
+</html>

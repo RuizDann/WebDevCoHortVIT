@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3D2 Exercise</title>
+    <link rel="stylesheet" href="exercise.css" />
+    <script onload="" src="exercise.js"></script><link>
+</head>
+<body>
+    <div class="flexBoxRow" id="header">
+        <h1>HEADERS ARE NEAT</h1>
+  </div>
+    </div>
+    <div class="flexBoxRow " id="mainDiv1">
+        <div id="carouselWindow">
+            <div class="flexBoxColumn" id="imgSlider">
+                <img src="images\widePic1.jpg" alt="greyMountain" width="1000px" height="400px" />
+                <img src="images\widePic2.jpg" alt="waterfrontMountain" width="1000px" height="400px" />
+                <img src="images\widePic3.jpg" alt="citySkyline" width="1000px" height="400px" />
+                <img src="images\widePic4.jpg" alt="snowyMountain" width="1000px" height="400px" />
+                <img src="images\widePic5.jpg" alt="greenMountain" width="1000px" height="400px" />
+                <img src="images\widePic6.jpg" alt="nightShoreline" width="1000px" height="400px" />
+            </div>
+        </div>
+    </div>
+
+    <div class="flexBoxRow addPadding" id="buttons">
+        <button onclick="scrollPrev()">Prev</button>
+        <button onclick="scrollNext()">Next</button>
+    </div>
+
+    <div class="flexBoxRow" id="mainDiv2">
+        <div class="flexBoxColumn containerBox">
+            <div class="flexBoxColumn" id="box1" ></div>
+            <div class="flexBoxColumn addPadding">
+                <button onclick="changeColor()">Change Box Color</button>
+            </div>
+        </div>
+        
+        <div class="flexBoxColumn containerBox">
+            <div class="flexBoxColumn" id="box2" >
+                <img src="neonTri.jpg" width="150px" height="100px" id="myImage">
+            </div>
+            <div class="flexBox addPadding">
+                <button  onclick="changeImage()">Change Image</button>
+            </div>
+        </div>
+        
+        <div class="flexBoxColumn containerBox">
+            <div class="flexBoxColumn" id="box3"></div>
+            <div class="flexBoxColumn addPadding">
+                <button  onclick="changeSize()">Change Size</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="divRow addPadding" id="footer">
+        <div>
+            <div class="flexBoxRow">
+                <h2>Contact List</h2>
+            </div>
+            <div class="divRow divBackground">
+                <div>
+                    <h4>Date:</h4>
+                    <ul id="dateCol"></ul>
+                </div>
+                <div>
+                    <h4>Name:</h4>
+                    <ul id="nameCol"></ul>
+                </div>
+                <div>
+                    <h4>Email:</h4>
+                    <ul id="emailCol"></ul>
+                </div>
+            </div>    
+        </div>
+        <div>
+            <div class="flexBoxColumn">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="flexBoxColumn divBackground">
+                <div class="addPadding">
+                    <label for="displayName">Enter Name: </label>
+                    <input type="text" name="displayName" id="displayName" placeholder="John Doe"/>
+                </div>
+                <div class="addPadding">
+                    <label for="displayEmail">Enter Email: </label>
+                    <input type="email" name="displayEmail" id="displayEmail" placeholder="JohnDoe@gmail.com"/>
+                </div>
+                <div class="addPadding">
+                <button onclick="addContact()">Submit Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

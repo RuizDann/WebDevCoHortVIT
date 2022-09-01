@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3D1 Demo</title>
+    <link rel="stylesheet" href="demo.css" />
+    <script src="demo.js"></script>
+  </head>
+  <body>
+    <h1>Week 3 Day 1 Demostration</h1>
+    <div>
+      <h2>Enlarge Box</h2>
+      <div class="sampleBox" id="enlargeBox"></div>
+      <button type="button" onclick="enlargeBox()">Enlarge Box</button>
+    </div>
+    <div>
+      <h2>Change Box Color</h2>
+
+      <div class="sampleBox" id="colorBox"></div>
+      <button type="button" onclick="changeBoxColorToSkyblue()">
+        Make BG skyblue
+      </button>
+      <button type="button" onclick="randomizeBgColor()">
+        Randomize BG Color (advanced)
+      </button>
+    </div>
+    <div>
+      <h2>Rotate Box</h2>
+      <div class="sampleBox" id="rotateBox"></div>
+      <button type="button" onclick="rotateBox()">Rotate Box</button>
+    </div>
+    <div
+      id="clickedDiv"
+      class="sampleBox eventEffects"
+      onclick="document.getElementById('clickedDiv').style.backgroundColor  = 'hotpink'"
+    >
+      Click Me!
+    </div>
+
+    <div
+      id="hoverColor"
+      class="sampleBox eventEffects"
+      onmouseover="document.getElementById('hoverColor').style.backgroundColor  = 'royalblue'"
+      onmouseleave="document.getElementById('hoverColor').style.backgroundColor  = 'white'"
+    >
+      Hover over me!
+    </div>
+  </body>
+</html>
